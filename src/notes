@@ -37,3 +37,7 @@ data sharing only in one direction(ts->html or html->ts)
 
 2)Two way data binding
 Data sharing in both directions(ts->html and html->ts)
+
+   i)ngModel binding - import formsModule in app.module.ts
+
+   [(ngModel)]="property_name"

@@ -6,9 +6,9 @@
     <!-- string interpolation -->
     <h6>{{aim}}</h6>
   <div class="card-body">
-      <input #acno type="text"  id="login_acno" [placeholder]="account">
-      <input #pswd type="password"  id="login_pswd" placeholder="Password"><br><br>
-      <button type="button" class="button-29" (click)="login(acno,pswd)">Login</button><br>
+      <input [(ngModel)]="acno" type="text"  id="login_acno" [placeholder]="account">
+      <input [(ngModel)]="pswd" type="password"  id="login_pswd" placeholder="Password"><br><br>
+      <button type="button" class="button-29" (click)="login()">Login</button><br>
       <a href="#" style="text-decoration:none ;">Forgot password</a>
        or <a href="./signup.html" style="text-decoration:none ;">Sign up</a>
   </div>
