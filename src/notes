@@ -41,3 +41,16 @@ Data sharing in both directions(ts->html and html->ts)
    i)ngModel binding - import formsModule in app.module.ts
 
    [(ngModel)]="property_name"
+
+Angular Routing
+
+To set path for component
+
+{
+   path:valuee,component:component_name
+}
+
+login
+{
+   path:'',component:LoginComponent
+}
