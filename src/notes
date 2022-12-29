@@ -73,6 +73,7 @@ constructor(private ds:DataService)
 
    b)structural directives(table)
        -> *ngfor
+       -> *ngIf
 
 6) Angular Forms
 a) Template driven Forms(First design the html template)
@@ -81,3 +82,18 @@ b) Model driven Forms(first design model in ts file)
    formGroup,array,control
    for advanced validation
    import from Reactive Forms Module(in app.module.ts)
+
+7)Local Storage
+   -setItem - To store data in local storage
+   -getItem - To get data from local storage
+   -removeItem - To remove data from local storage
+
+8) Parent child communication
+   parent -> child communication
+   child -> parent communication
+
+   eg:
+   dashboard -> parent - @Input
+   delete -> child - @Output
+
+9)Angular pipes   
